@@ -1,0 +1,60 @@
+body{
+    background-image: url(../img/prueba1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+.titulo{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.img{
+    border: rgb(255 255 255);
+    border-radius: 50%;
+    display: flex;
+    margin: 20px;
+}
+.contenido1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 1px;
+    border: solid;
+    border-radius: 20px;
+    background-color: rgba(115, 204, 242, 0.715);
+}
+.contenido2{
+    margin-top: 10px;
+    text-align: center;
+    border: solid;
+    border-radius: 20px;
+    background-color: rgba(115, 204, 242, 0.715);
+}
+input{
+    color: aliceblue;
+    text-align: center;
+    margin-right: 1px;
+    border: solid;
+    border-radius: 20px;
+    background-color: rgba(115, 204, 242, 0.715);
+}
+.indice{
+    margin: 5px;
+    padding: 50px;
+}
+li{
+    background-color: rgba(115, 204, 242, 0.303)
+}
+li:hover{
+    background-color: rgb(0, 119, 119);
+    color: aliceblue;   
+}
+.btn{
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: rgb(0, 119, 119);
+    color: aliceblue;   
+}
